@@ -100,10 +100,10 @@ export const resumeData: ResumeData = {
       name: "Programming Languages",
       Icon: Cpu,
       skills: [
-        { name: "JavaScript (ES6+)", level: 95 },
-        { name: "TypeScript", level: 90 },
+        { name: "JavaScript", level: 85 },
+        { name: "TypeScript", level: 70 },
         { name: "Python", level: 80 },
-        { name: "Java", level: 75 },
+        { name: "HTML", level: 90 },
       ],
     },
     {
@@ -130,7 +130,7 @@ export const resumeData: ResumeData = {
       name: "Developer Tools",
       Icon: Award,
       skills: [
-        { name: "Git & GitHub", level: 95 },
+        { name: "Git & GitHub", level: 75 },
         { name: "Docker", level: 80 },
         { name: "Kubernetes", level: 60 },
         { name: "Jira", level: 90 },
@@ -143,7 +143,7 @@ export const resumeData: ResumeData = {
         { name: "Problem Solving", level: 95 },
         { name: "Team Leadership", level: 90 },
         { name: "Communication", level: 90 },
-        { name: "Agile Methodologies", level: 85 },
+        { name: "Project Management", level: 95 },
       ],
     }
   ],
@@ -153,7 +153,7 @@ export const resumeData: ResumeData = {
       description: "We bust myths and share mind-blowing, verified facts from around the world—fast, fun, and educational.",
       techStack: ["Content Creation & Digital Storytelling", "Audience Engagement & Community Building", "Video Editing & Visual Communication", "Project Management & Consistency"],
       link: "https://www.youtube.com/channel/UC-cjLe__ZBTGYpXZfPnY29A",
-      image: "https://placehold.co/600x400.png",
+      image: "/dark-brain.png",
     },
     {
       name: "Task Management App",
@@ -167,7 +167,7 @@ export const resumeData: ResumeData = {
       name: "Personal Portfolio Website (This one!)",
       description: "A dynamic and AI-enhanced personal resume website built with Next.js and Tailwind CSS.",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Genkit AI"],
-      repo: "",
+      repo: "https://github.com/KingCoderGithub/my-resume",
       image: "https://placehold.co/600x400.png?text=Persona+Pro",
     }
   ],
