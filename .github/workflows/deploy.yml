@@ -54,6 +54,7 @@ jobs:
         # Often, the CLI can infer the project if .firebaserc is configured and checked in, or if only one project is associated.
         # Adding '|| echo ...' to make this step non-fatal if it fails (e.g., already enabled).
 
+
       - name: Deploy to Firebase
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
