@@ -153,7 +153,7 @@ export const resumeData: ResumeData = {
       description: "We bust myths and share mind-blowing, verified facts from around the world—fast, fun, and educational.",
       techStack: ["Content Creation & Digital Storytelling", "Audience Engagement & Community Building", "Video Editing & Visual Communication", "Project Management & Consistency"],
       link: "https://www.youtube.com/channel/UC-cjLe__ZBTGYpXZfPnY29A",
-      image: "/dark-brain.png",
+      image: "https://placehold.co/600x400.png",
     },
     {
       name: "Task Management App",
