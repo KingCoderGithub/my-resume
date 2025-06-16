@@ -1,3 +1,4 @@
+
 import type {NextConfig} from 'next';
 
 // Replace with your GitHub repository name
