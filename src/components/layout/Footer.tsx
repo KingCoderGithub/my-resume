@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           &copy; {currentYear} {personalInfo.name}. All rights reserved.
         </p>
         <p className="text-xs mt-2">
-          Powered by Persona Pro
+          Thank You For Visiting!
         </p>
       </div>
     </footer>

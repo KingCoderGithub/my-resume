@@ -38,7 +38,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
           <Code2 size={28} />
-          <span>Persona Pro</span>
+          <span>Karan's Resume</span>
         </Link>
 
         {isMobile ? (
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                 <div className="flex justify-between items-center mb-6">
                    <Link href="/" className="flex items-center gap-2 text-xl font-bold text-primary" onClick={() => setIsSheetOpen(false)}>
                       <Code2 size={24} />
-                      <span>Persona Pro</span>
+                      <span>Karan's Resume</span>
                     </Link>
                   <SheetClose asChild>
                      <Button variant="ghost" size="icon">

@@ -1,18 +1,10 @@
 
 import type {NextConfig} from 'next';
 
-// Replace with your GitHub repository name
-const GITHUB_REPOSITORY_NAME = 'my-resume';
-
-const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
-
 const nextConfig: NextConfig = {
-  output: 'export', // Required for static export
-  // basePath and assetPrefix are needed if you're deploying to a subpath on GitHub Pages
-  // e.g., https://KingCoderGithub.github.io/my-resume/
-  // If deploying to a custom domain or a root path, these can be removed or set to ''.
-  basePath: isGithubActions ? `/${GITHUB_REPOSITORY_NAME}` : '',
-  assetPrefix: isGithubActions ? `/${GITHUB_REPOSITORY_NAME}/` : '',
+  // output: 'export', // REMOVED: No longer exporting statically
+  // basePath: '', // REMOVED: Not needed for Firebase Hosting root deployment
+  // assetPrefix: '', // REMOVED: Not needed for Firebase Hosting
 
   typescript: {
     ignoreBuildErrors: true,
@@ -21,9 +13,10 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    // Image optimization is not supported in static export on GitHub Pages
+    // Image optimization might not be fully supported by default on standard Firebase Hosting
+    // For Firebase App Hosting, it often handles Next.js features well.
+    // Keeping unoptimized: true can be safer initially, or you can test removing it.
     unoptimized: true,
-    // Keep your existing remotePatterns if needed, but they also rely on the image being accessible
     remotePatterns: [
       {
         protocol: 'https',
