@@ -1,1 +1,2 @@
-To get started, take a look at src/app/page.tsx.
+To take a look at my reume website - visit https://kingcodergithub.github.io/my-resume/
+
