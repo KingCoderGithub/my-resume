@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Persona Pro - Dynamic Resume',
-  description: 'AI-Powered Dynamic Resume Website',
+  title: 'Karan Shah',
+  description: 'Dynamic Resume Website',
 };
 
 export default function RootLayout({

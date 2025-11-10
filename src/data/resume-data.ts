@@ -71,70 +71,103 @@ export const resumeData: ResumeData = {
   },
   workExperience: [
     {
-      role: "Senior Software Engineer",
-      company: "Tech Solutions Inc.",
-      period: "Jan 2020 – Present",
-      location: "San Francisco, CA",
+      role: "Machine Learning Intern",
+      company: "Amnex Infotechnologies",
+      period: "July 2024 – August 2024",
+      location: "India (Remote/Hybrid)",
       responsibilities: [
-        "Led a team of 5 developers in designing and implementing a new microservices architecture, improving system scalability by 40%.",
-        "Developed and maintained critical features for a SaaS platform used by over 100,000 users, utilizing React, Node.js, and PostgreSQL.",
-        "Integrated third-party APIs for payment processing and analytics, enhancing platform functionality.",
-        "Mentored junior engineers, fostering a culture of continuous learning and growth within the team.",
-      ],
+        "Developed and deployed a stroke risk prediction web app using FastAPI (backend) and Streamlit (frontend), achieving approximately 80% accuracy.",
+        "Engineered and tuned an XGBoost-based rare-event model with SMOTE balancing and SHAP explainability to improve recall and interpretability.",
+        "Built REST API endpoints for real-time predictions and integrated them with a responsive Streamlit frontend for public health awareness.",
+        "Collaborated with a data science team on GIS visualization mini-projects using QGIS and Python for spatial data analysis."
+      ]
     },
     {
-      role: "Software Developer",
-      company: "Innovatech Ltd.",
-      period: "Jun 2016 – Dec 2019",
-      location: "Austin, TX",
+      role: "Eco-Schools Chairman (Green Flag Program)",
+      company: "School Environmental Council",
+      period: "Aug 2023 – Present",
+      location: "Doha, Qatar",
       responsibilities: [
-        "Contributed to the development of a customer relationship management (CRM) system using Angular and Java Spring Boot.",
-        "Collaborated with UX/UI designers to create intuitive and responsive user interfaces.",
-        "Participated in agile development cycles, including sprint planning, daily stand-ups, and retrospectives.",
-        "Wrote unit and integration tests, ensuring code quality and reliability.",
-      ],
+        "Led sustainability initiatives across the school including electricity, water, and waste audits as part of the Eco-Schools Green Flag accreditation.",
+        "Organized student campaigns promoting responsible energy use, paperless lessons, and upcycling drives during Sustainability Day.",
+        "Designed Canva presentations, Microsoft Forms surveys, and recruitment campaigns to expand committee participation among students.",
+        "Coordinated with staff and administration to ensure measurable environmental improvements across classrooms and corridors."
+      ]
     },
+    {
+      role: "Team Leader",
+      company: "University of Cambridge Judge Business School – Personal Development Program",
+      period: "June 2023 – July 2023",
+      location: "Virtual Program (UK)",
+      responsibilities: [
+        "Led a cross-functional student team to design a UN Sustainable Development Goal-aligned product for a mock business pitch.",
+        "Managed research, branding, and product strategy, ensuring alignment with SDG themes such as sustainability and education.",
+        "Presented the final pitch to CJBS advisors, receiving commendation for communication, leadership, and problem-solving."
+      ]
+    },
+    {
+      role: "Prefect & House Captain",
+      company: "West House – Compass International School",
+      period: "2023 – 2025",
+      location: "Doha, Qatar",
+      responsibilities: [
+        "Supervised student teams and organized inter-house competitions, leading the house to a second-place finish on Sports Day.",
+        "Acted as a liaison between students and teachers, promoting inclusivity and teamwork across grade levels.",
+        "Guided younger students academically and socially, fostering community and school spirit."
+      ]
+    }
   ],
+
   skills: [
     {
       name: "Programming Languages",
       Icon: Cpu,
       skills: [
-        { name: "JavaScript", level: 85 },
+        { name: "Python", level: 90 },
+        { name: "JavaScript", level: 80 },
         { name: "TypeScript", level: 70 },
-        { name: "Python", level: 80 },
-        { name: "HTML", level: 90 },
-      ],
+        { name: "HTML & CSS", level: 85 }
+      ]
     },
     {
       name: "Frameworks & Libraries",
       Icon: Briefcase,
       skills: [
-        { name: "React / Next.js", level: 95 },
-        { name: "Node.js / Express", level: 90 },
-        { name: "Angular", level: 70 },
-        { name: "Spring Boot", level: 70 },
-      ],
+        { name: "FastAPI", level: 90 },
+        { name: "Streamlit", level: 90 },
+        { name: "React / Next.js", level: 80 },
+        { name: "XGBoost, Scikit-learn, Optuna", level: 85 }
+      ]
     },
     {
-      name: "Databases & Cloud",
+      name: "Data Science & AI",
       Icon: Globe,
       skills: [
-        { name: "PostgreSQL, MySQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "AWS (EC2, S3, Lambda)", level: 75 },
-        { name: "Firebase", level: 80 },
-      ],
+        { name: "Machine Learning & Model Tuning", level: 90 },
+        { name: "Data Visualization (Matplotlib, Seaborn, SHAP)", level: 85 },
+        { name: "Pandas & NumPy", level: 90 },
+        { name: "TensorFlow / Keras (Basic)", level: 70 }
+      ]
     },
-     {
-      name: "Developer Tools",
+    {
+      name: "Tools & Deployment",
       Icon: Award,
       skills: [
-        { name: "Git & GitHub", level: 75 },
-        { name: "Docker", level: 80 },
-        { name: "Kubernetes", level: 60 },
-        { name: "Jira", level: 90 },
-      ],
+        { name: "Git & GitHub", level: 85 },
+        { name: "Render & Streamlit Cloud", level: 90 },
+        { name: "Docker (Basic)", level: 70 },
+        { name: "VS Code & Jupyter", level: 95 }
+      ]
+    },
+    {
+      name: "Other Technical Skills",
+      Icon: Globe,
+      skills: [
+        { name: "GIS (QGIS, Spatial Data Analysis)", level: 80 },
+        { name: "API Design & Integration", level: 85 },
+        { name: "Feature Engineering", level: 90 },
+        { name: "Model Explainability (SHAP, Logic Overrides)", level: 90 }
+      ]
     },
     {
       name: "Soft Skills",
@@ -143,90 +176,129 @@ export const resumeData: ResumeData = {
         { name: "Problem Solving", level: 95 },
         { name: "Team Leadership", level: 90 },
         { name: "Communication", level: 90 },
-        { name: "Project Management", level: 95 },
-      ],
+        { name: "Project Management", level: 95 }
+      ]
     }
   ],
+
   projects: [
     {
-      name: "Did You Know? (Youtube Channel)",
-      description: "We bust myths and share mind-blowing, verified facts from around the world—fast, fun, and educational.",
-      techStack: ["Content Creation & Digital Storytelling", "Audience Engagement & Community Building", "Video Editing & Visual Communication", "Project Management & Consistency"],
+      name: "Did You Know? (YouTube Channel)",
+      description: "An educational short-form content channel debunking myths and sharing mind-blowing verified science and AI facts. Over 75,000 total views, 100+ subscribers, and 285 watch hours.",
+      techStack: [
+        "Content Creation & Digital Storytelling",
+        "YouTube Analytics & Audience Engagement",
+        "Video Editing (InVideo, Canva)",
+        "Branding & Visual Communication"
+      ],
       link: "https://www.youtube.com/channel/UC-cjLe__ZBTGYpXZfPnY29A",
-      image: "/dark-brain.png",
+      image: "/dark-brain.png"
     },
     {
-      name: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop interface, and notification system.",
-      techStack: ["React", "Redux", "Node.js", "Socket.IO", "MongoDB"],
-      link: "https://example-taskapp.com",
-      repo: "https://github.com/alexjohnsondev/task-management-app",
-      image: "https://placehold.co/600x400.png?text=Hello+World",
+      name: "Stroke Risk Prediction App",
+      description: "A full-stack machine learning web app predicting stroke risk using demographic and health data. Built during a 20-day internship at a 300-person tech company, achieving ~80% accuracy.",
+      techStack: [
+        "FastAPI (Backend)",
+        "Streamlit (Frontend)",
+        "XGBoost + SHAP (Modeling & Explainability)",
+        "Python, Pandas, Optuna, Scikit-learn"
+      ],
+      repo: "https://github.com/KingCoderGithub/stroke-prediction-app",
+      image: "https://placehold.co/600x400.png?text=Stroke+Prediction+App"
     },
     {
-      name: "Personal Portfolio Website (This one!)",
-      description: "A dynamic and AI-enhanced personal resume website built with Next.js and Tailwind CSS.",
-      techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Genkit AI"],
+      name: "Fruit Freshness Detection App",
+      description: "An AI-based image classification model that identifies whether fruits are fresh, ripe, or rotten using computer vision techniques.",
+      techStack: [
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "Python"
+      ],
+      repo: "https://github.com/KingCoderGithub/fruit-freshness-detection",
+      image: "https://placehold.co/600x400.png?text=Fruit+Freshness+Detector"
+    },
+    {
+      name: "GIS Applications Internship Projects",
+      description: "Contributed to geospatial mapping and visualization mini-projects during internship, focusing on data integration and spatial analysis.",
+      techStack: [
+        "QGIS",
+        "Python",
+        "Data Visualization",
+        "Geospatial Analysis"
+      ],
+      image: "https://placehold.co/600x400.png?text=GIS+Mini+Projects"
+    },
+    {
+      name: "Interactive Resume Website",
+      description: "A sleek, interactive personal portfolio showcasing achievements, certifications, and projects in a creative, dynamic format.",
+      techStack: [
+        "Next.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "TypeScript"
+      ],
       repo: "https://github.com/KingCoderGithub/my-resume",
-      image: "https://placehold.co/600x400.png?text=Persona+Pro",
+      image: "https://placehold.co/600x400.png?text=Interactive+Resume"
     }
   ],
 
   certifications: [
     {
-      name: "Next.js Certified Developer",
-      issuingOrganization: "Vercel",
-      date: "Issued: March 2023",
-      credentialId: "NCD-12345",
-      credentialUrl: "https://vercel.com/certification/alexjohnson/NCD-12345",
+      name: "Data Science Specialization",
+      issuingOrganization: "Coursera",
+      date: "Issued: 2024",
+      credentialUrl: "https://www.coursera.org/specializations/data-science",
       image: "https://placehold.co/300x200.png",
-      description: "Validated expertise in developing high-performance web applications with Next.js.",
+      description: "12-course specialization covering data analysis, visualization, and machine learning, completed over 6 months."
     },
     {
-      name: "AWS Certified Solutions Architect – Associate",
-      issuingOrganization: "Amazon Web Services",
-      date: "Issued: July 2022",
-      credentialId: "AWS-SAA-67890",
-      credentialUrl: "https://www.credly.com/badges/your-aws-badge-id",
+      name: "Cybersecurity Specialization",
+      issuingOrganization: "Coursera",
+      date: "Issued: 2024",
+      credentialUrl: "https://www.coursera.org/specializations/cyber-security",
       image: "https://placehold.co/300x200.png",
-      description: "Demonstrated knowledge of architecting and deploying secure and robust applications on AWS technologies.",
+      description: "8-course specialization demonstrating practical understanding of network defense, cryptography, and digital forensics."
     },
     {
-      name: "Professional Scrum Master I (PSM I)",
-      issuingOrganization: "Scrum.org",
-      date: "Issued: December 2021",
-      credentialUrl: "https://www.scrum.org/user/your-profile-id",
+      name: "Program Management Certification",
+      issuingOrganization: "Coursera",
+      date: "Issued: 2024",
+      credentialUrl: "https://www.coursera.org/professional-certificates/google-project-management",
       image: "https://placehold.co/300x200.png",
-      description: "Proficiency in Scrum principles, practices, and theory, and the role of the Scrum Master.",
+      description: "3-month professional certification emphasizing agile methodologies, stakeholder communication, and strategic planning."
     },
     {
-      name: "Placeholder Certificate One",
-      issuingOrganization: "Tech Certifiers Inc.",
-      date: "Issued: January 2024",
-      credentialId: "PLC-001",
-      credentialUrl: "https://example.com/cert/plc001",
+      name: "ISRO Online Training Program Certificate",
+      issuingOrganization: "Indian Space Research Organisation (ISRO)",
+      date: "Issued: 2024",
+      credentialUrl: "https://www.isro.gov.in",
       image: "https://placehold.co/300x200.png",
-      description: "This is a placeholder for an additional certification. Update with real details.",
+      description: "Recognized completion of ISRO’s national training program on space science and remote sensing applications."
     },
     {
-      name: "Placeholder Certificate Two",
-      issuingOrganization: "Global Certs Co.",
-      date: "Issued: February 2024",
-      credentialId: "PLC-002",
-      credentialUrl: "https://example.com/cert/plc002",
+      name: "Deloitte Problem Solving Certificate",
+      issuingOrganization: "Deloitte",
+      date: "Issued: 2023",
+      credentialUrl: "https://www.deloitte.com",
       image: "https://placehold.co/300x200.png",
-      description: "Another placeholder for showcasing skills and knowledge in a specific area.",
+      description: "Awarded for completing Deloitte’s problem-solving certification program focused on structured thinking and analytical reasoning."
     },
     {
-      name: "Placeholder Certificate Three",
-      issuingOrganization: "Online Learning Hub",
-      date: "Issued: March 2024",
-      credentialId: "PLC-003",
-      credentialUrl: "https://example.com/cert/plc003",
+      name: "Certified Android & iOS App Developer",
+      issuingOrganization: "WhiteHat Jr",
+      date: "Issued: 2023",
       image: "https://placehold.co/300x200.png",
-      description: "Fill this in with your certification details to expand your credentials section.",
+      description: "Certified for developing functional Android and iOS applications through 144+ hours of live instruction and projects."
+    },
+    {
+      name: "Certified Game Developer",
+      issuingOrganization: "WhiteHat Jr",
+      date: "Issued: 2023",
+      image: "https://placehold.co/300x200.png",
+      description: "Completed 144+ hours of live sessions and hands-on assignments creating interactive games with physics-based mechanics."
     }
-  ],
+  ]
 };
 
 
