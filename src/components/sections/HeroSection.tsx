@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
         <FadeInWhenVisible delay={0.1} initialY="5">
           <div className="mb-6">
             <Image 
-              src="/profile.png"
+              src="/public/profile.png"
               alt={personalInfo.name}
               width={400}
               height={400}
@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
           </Button>
           <Button size="lg" variant="outline" asChild>
             {/* Replace with actual resume link or download functionality */}
-            <a href="/resume.pdf" download="Alex_Johnson_Resume.pdf" aria-label="Download Resume">
+            <a href="/public/karan_shah_resume.pdf" download="Karan_Shah_Resume.pdf" aria-label="Download Resume">
               <Download className="mr-2 h-5 w-5" />
               Download CV
             </a>

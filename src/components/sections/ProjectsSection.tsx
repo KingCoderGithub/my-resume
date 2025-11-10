@@ -32,7 +32,7 @@ const ProjectsSection: React.FC = () => {
                     style={{ objectFit: 'cover' }}
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     data-ai-hint={
-                      project.image === "/dark-brain.png" ? "custom project" :
+                      project.image === "/public/dark-brain.png" ? "custom project" :
                       project.name.toLowerCase().includes('task management app') ? "task interface" :
                       "project interface"
                     }

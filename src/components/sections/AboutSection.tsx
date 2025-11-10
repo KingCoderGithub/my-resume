@@ -26,7 +26,7 @@ const AboutSection: React.FC = () => {
       <div className="grid md:grid-cols-3 gap-12 items-center">
         <FadeInWhenVisible className="md:col-span-1" initialY="5">
           <Image
-            src="/eyes.png"
+            src="/public/eyes.png"
             alt={personalInfo.name}
             width={800}
             height={800}
