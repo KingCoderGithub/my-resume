@@ -203,7 +203,7 @@ export const resumeData: ResumeData = {
         "XGBoost + SHAP (Modeling & Explainability)",
         "Python, Pandas, Optuna, Scikit-learn"
       ],
-      repo: "https://github.com/KingCoderGithub/stroke-prediction-app",
+      repo: "https://github.com/KingCoderGithub/stroke_detection_ml",
       image: "https://placehold.co/600x400.png?text=Stroke+Prediction+App"
     },
     {
@@ -215,7 +215,6 @@ export const resumeData: ResumeData = {
         "OpenCV",
         "Python"
       ],
-      repo: "https://github.com/KingCoderGithub/fruit-freshness-detection",
       image: "https://placehold.co/600x400.png?text=Fruit+Freshness+Detector"
     },
     {
@@ -248,16 +247,16 @@ export const resumeData: ResumeData = {
       name: "Data Science Specialization",
       issuingOrganization: "Coursera",
       date: "Issued: 2024",
-      credentialUrl: "https://www.coursera.org/specializations/data-science",
-      image: "https://placehold.co/300x200.png",
+      credentialUrl: "https://www.coursera.org/professional-certificates/ibm-data-science",
+      image: "https://placehold.co/300x200.png?text=Data+Science+Specialization",
       description: "12-course specialization covering data analysis, visualization, and machine learning, completed over 6 months."
     },
     {
       name: "Cybersecurity Specialization",
       issuingOrganization: "Coursera",
       date: "Issued: 2024",
-      credentialUrl: "https://www.coursera.org/specializations/cyber-security",
-      image: "https://placehold.co/300x200.png",
+      credentialUrl: "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      image: "https://placehold.co/300x200.png?text=Cybersecurity+Specialization",
       description: "8-course specialization demonstrating practical understanding of network defense, cryptography, and digital forensics."
     },
     {
@@ -265,37 +264,35 @@ export const resumeData: ResumeData = {
       issuingOrganization: "Coursera",
       date: "Issued: 2024",
       credentialUrl: "https://www.coursera.org/professional-certificates/google-project-management",
-      image: "https://placehold.co/300x200.png",
+      image: "https://placehold.co/300x200.png?text=Program+Management+Certification",
       description: "3-month professional certification emphasizing agile methodologies, stakeholder communication, and strategic planning."
     },
     {
       name: "ISRO Online Training Program Certificate",
       issuingOrganization: "Indian Space Research Organisation (ISRO)",
       date: "Issued: 2024",
-      credentialUrl: "https://www.isro.gov.in",
-      image: "https://placehold.co/300x200.png",
+      image: "https://placehold.co/300x200.png?text=ISRO+Online+Training+Program+Certificate",
       description: "Recognized completion of ISRO’s national training program on space science and remote sensing applications."
     },
     {
       name: "Deloitte Problem Solving Certificate",
       issuingOrganization: "Deloitte",
       date: "Issued: 2023",
-      credentialUrl: "https://www.deloitte.com",
-      image: "https://placehold.co/300x200.png",
+      image: "https://placehold.co/300x200.png?text=Deloitte+Problem+Solving+Certificate",
       description: "Awarded for completing Deloitte’s problem-solving certification program focused on structured thinking and analytical reasoning."
     },
     {
       name: "Certified Android & iOS App Developer",
       issuingOrganization: "WhiteHat Jr",
       date: "Issued: 2023",
-      image: "https://placehold.co/300x200.png",
+      image: "https://placehold.co/300x200.png?text=Certified+Android+&+iOS+App+Developer",
       description: "Certified for developing functional Android and iOS applications through 144+ hours of live instruction and projects."
     },
     {
       name: "Certified Game Developer",
       issuingOrganization: "WhiteHat Jr",
       date: "Issued: 2023",
-      image: "https://placehold.co/300x200.png",
+      image: "https://placehold.co/300x200.png?text=Certified+Game+Developer",
       description: "Completed 144+ hours of live sessions and hands-on assignments creating interactive games with physics-based mechanics."
     }
   ]
