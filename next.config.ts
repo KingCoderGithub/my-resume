@@ -1,31 +1,30 @@
-
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // output: 'export', // REMOVED: No longer exporting statically
-  // basePath: '', // REMOVED: Not needed for Firebase Hosting root deployment
-  // assetPrefix: '', // REMOVED: Not needed for Firebase Hosting
+  // Static export for GitHub Pages
+  output: 'export',
+  // Your repo name becomes the base path
+  basePath: '/my-resume',
+  assetPrefix: '/my-resume/',
 
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true
   },
   images: {
-    // Image optimization might not be fully supported by default on standard Firebase Hosting
-    // For Firebase App Hosting, it often handles Next.js features well.
-    // Keeping unoptimized: true can be safer initially, or you can test removing it.
+    // GitHub Pages is pure static hosting – no image optimization server
     unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'placehold.co',
         port: '',
-        pathname: '/**',
-      },
-    ],
-  },
+        pathname: '/**'
+      }
+    ]
+  }
 };
 
 export default nextConfig;
