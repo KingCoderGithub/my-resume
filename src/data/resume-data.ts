@@ -74,7 +74,7 @@ export const resumeData: ResumeData = {
       role: "Machine Learning Intern",
       company: "Amnex Infotechnologies",
       period: "July 2024 – August 2024",
-      location: "India (Remote/Hybrid)",
+      location: "India (In-Person)",
       responsibilities: [
         "Developed and deployed a stroke risk prediction web app using FastAPI (backend) and Streamlit (frontend), achieving approximately 80% accuracy.",
         "Engineered and tuned an XGBoost-based rare-event model with SMOTE balancing and SHAP explainability to improve recall and interpretability.",
